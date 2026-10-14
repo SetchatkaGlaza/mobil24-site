@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+.idea/
+.vscode/
+# исходные видео большого размера храните вне репозитория; в assets/video кладите только готовые сжатые файлы
+*.mov
+*.psd
+docs/screenshots/responsive/

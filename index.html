@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>МОБИЛ24: круглосуточная мойка самообслуживания в Вологде</title>
+<meta name="description" content="Мойка самообслуживания МОБИЛ24 в Вологде, Окружное шоссе, 9. 7 закрытых отапливаемых боксов, 24/7, активная пена, осмос, воск, пылесос в боксе. Боксы для Газелей.">
+<meta name="theme-color" content="#08090b">
+<!-- ЗАМЕНИТЕ https://YOUR-DOMAIN.ru на реальный адрес сайта (см. docs/DEPLOYMENT.md) -->
+<link rel="canonical" href="https://YOUR-DOMAIN.ru/">
+<meta property="og:type" content="website"><meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="МОБИЛ24: мойка самообслуживания 24/7, Вологда">
+<meta property="og:description" content="7 просторных закрытых боксов, осмос, воск, пылесос внутри. Окружное шоссе, 9.">
+<meta property="og:image" content="https://YOUR-DOMAIN.ru/assets/img/og-image.jpg"><meta property="og:url" content="https://YOUR-DOMAIN.ru/">
+<link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png"><link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap">
+<link rel="preload" as="image" href="assets/img/hero-night.webp">
+<link rel="stylesheet" href="assets/css/styles.css">
+<!-- Структурированные данные для поисковиков (Яндекс, Google) -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"AutoWash","name":"МОБИЛ24 — мойка самообслуживания",
+"image":"https://YOUR-DOMAIN.ru/assets/img/og-image.jpg","telephone":"+7 964 666-44-66","url":"https://YOUR-DOMAIN.ru/",
+"address":{"@type":"PostalAddress","streetAddress":"Окружное шоссе, 9","addressLocality":"Вологда","addressCountry":"RU"},
+"geo":{"@type":"GeoCoordinates","latitude":59.204197,"longitude":39.81632},
+"openingHours":"Mo-Su 00:00-23:59","paymentAccepted":"Cash, Credit Card, QR, SBP",
+"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","ratingCount":"26","reviewCount":"23"},
+"sameAs":["https://t.me/mobil24auto","https://vk.ru/club240904865"]}
+</script>
+</head>
+<body>
+<script>document.documentElement.classList.add('js')</script>
+<a class="skip" href="#main">К содержимому</a>
+
+<header class="hd" id="hd"><div class="w hd__in">
+  <a class="brand" href="#top" aria-label="МОБИЛ24, на главную"><img src="assets/img/logo.png" width="44" height="44" alt=""><span>МОБИЛ24</span></a>
+  <nav class="nav" id="nav" aria-label="Основное меню"><a href="#services">Цены</a><a href="#how">Как это работает</a><a href="#bays">Боксы</a><a href="#gallery">Фото</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a></nav>
+  <a class="hd__tel" data-goal="call" data-cfg="tel" href="#"></a>
+  <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+</div></header>
+
+<main id="main">
+<!-- 1. Главный экран -->
+<section class="hero" id="top">
+  <div class="hero__bg" id="heroBg" aria-hidden="true" data-video="hero"></div>
+  <div class="w hero__in">
+    <div class="hero__txt">
+      <p class="live"><i class="dot"></i><span id="liveT">Открыто круглосуточно</span></p>
+      <h1><span class="ln"><i>Мойка самообслуживания</i></span> <span class="ln"><i>в <em>Вологде</em></i></span></h1>
+      <p class="hero__lead">Открыта круглосуточно, без выходных. Семь закрытых отапливаемых боксов. Оплата по минутам, от 44 ₽.</p>
+      <div class="hero__cta">
+        <a class="btn btn--sig" data-goal="route" data-cfg="map" target="_blank" rel="noopener" href="#">Построить маршрут<b>→</b></a>
+        <a class="btn" data-goal="call" data-cfg="tel" href="#">Позвонить</a>
+        <a class="btn btn--vk" data-goal="vk" data-cfg="vk" target="_blank" rel="noopener" href="#"><span class="vkb">VK</span>Группа</a>
+      </div>
+    </div>
+    <aside class="board" aria-hidden="true"><div class="board__h"><span>Цена за минуту</span><i class="dot"></i></div><div class="board__r" id="boardRows"></div></aside>
+  </div>
+  <div class="facts"><div class="w facts__in">
+    <div><b>24/7</b><span>круглосуточно</span></div>
+    <div><b>7</b><span>закрытых боксов</span></div>
+    <div><b>от 44 ₽</b><span>за минуту работы</span></div>
+    <div><b>5,0</b><span>на Яндекс Картах</span></div>
+  </div></div>
+</section>
+
+<!-- 2. Цены: строки со шкалой, справа фото режима -->
+<section class="sec" id="services"><div class="w svc">
+  <div class="svc__head"><h2>Цены на мойку</h2><p class="lead">Тарификация по минутам. Оплата на терминале: карта, наличные, СБП, QR-код. Шкала показывает цену относительно самого дорогого режима.</p></div>
+  <div class="pick__list" id="pickList" role="tablist" aria-label="Режимы мойки" data-reveal></div>
+  <div class="pick__view" id="pickView" data-reveal="wipe"></div>
+</div></section>
+
+<!-- 3. Как это работает: демонстрация терминала -->
+<section class="sec sec--alt" id="how"><div class="w how">
+  <div class="term" data-reveal>
+    <div class="term__top"><span>БОКС 3</span><span id="tState">ОЖИДАНИЕ</span></div>
+    <div class="term__scr"><div class="term__bal" id="tBal">0 ₽</div><div class="term__mode" id="tMode">Пополните баланс</div></div>
+    <div class="term__leds" id="tLeds"></div>
+    <div class="term__knob"><div class="knob__r" id="knobR"><i></i></div><span class="knob__c">РЕЖИМ</span></div>
+    <p class="term__note">Демонстрация: время и суммы условные.</p>
+  </div>
+  <div class="how__t"><h2>Как это работает</h2>
+    <ol class="steps" id="steps">
+      <li><b>Заезжайте и платите</b><span>Картой, наличными, через СБП или по QR-коду на терминале в боксе.</span></li>
+      <li><b>Поверните ручку</b><span>Давление, пена, воск, осмос: выбор режима одним движением.</span></li>
+      <li><b>Мойте</b><span>Счётчик идёт только пока режим включён. Остаток остаётся на балансе.</span></li>
+      <li><b>Пауза и финиш</b><span>Разотрите пену, помойте коврики (2 минуты паузы бесплатно), продуйте замки сжатым воздухом.</span></li>
+    </ol></div>
+</div></section>
+
+<!-- 4. Боксы: два варианта -->
+<section class="sec" id="bays"><div class="w">
+  <h2>Семь боксов, два варианта</h2>
+  <p class="lead">Все боксы закрытые, светлые, с отоплением, пылесосом и бесплатной продувкой внутри.</p>
+  <div class="bays">
+    <article class="bay" data-reveal data-hl="std"><img loading="lazy" src="assets/img/bay-1.webp" alt="Стандартный бокс"><div class="bay__b"><div class="bay__n">5<small>боксов</small></div><h3>Для легковых и кроссоверов</h3><div class="bay__m"><span>№2–6</span><span>ворота 2,8 м</span></div></div></article>
+    <article class="bay" data-reveal data-hl="tall"><img loading="lazy" src="assets/img/van.webp" alt="Бокс для Газели"><div class="bay__b"><div class="bay__n">2<small>бокса</small></div><h3>Для Газелей, фургонов и квадроциклов</h3><div class="bay__m"><span>№1 и №7</span><span>ворота 3,10 м</span></div></div></article>
+  </div>
+  <div class="plan" id="plan" data-reveal="plan" aria-label="Схема боксов: №1 и №7 высокие, №2–6 стандартные"></div>
+  <ul class="adv">
+    <li data-reveal><b>Тёплые боксы</b><span>Мойтесь в любую погоду, не выходя на мороз</span></li>
+    <li data-reveal><b>Осмос</b><span>Ополаскивание без разводов, кузов не нужно вытирать</span></li>
+    <li data-reveal><b>Пылесос в боксе</b><span>И бесплатная продувка сжатым воздухом</span></li>
+    <li data-reveal><b>Любая оплата</b><span>Карта, наличные, СБП и QR-код</span></li>
+    <li data-reveal><b>Грязный транспорт</b><span>Принимаем и квадроциклы, и грузовики</span></li>
+    <li data-reveal><b>Удобства</b><span>Wi‑Fi, парковка, туалет, мойка для тряпок</span></li>
+  </ul>
+</div></section>
+
+<!-- 5. Галерея-мозаика -->
+<section class="sec sec--alt" id="gallery"><div class="w"><h2>Фото мойки</h2><div class="mos" id="mos"></div></div></section>
+
+<!-- 6. Отзывы -->
+<section class="sec" id="reviews"><div class="w">
+  <h2>Что говорят клиенты</h2>
+  <div class="rate" data-reveal><b class="rate__n">5,0</b><div><div class="stars" data-stars="5"></div><p>26 оценок, 23 отзыва<br>на Яндекс Картах</p></div>
+    <a class="link" data-goal="reviews" data-cfg="reviews" target="_blank" rel="noopener" href="#">Оставить отзыв →</a></div>
+</div><div class="rows" id="rows"></div></section>
+
+<!-- 7. Контакты -->
+<section class="sec sec--alt" id="contacts"><div class="w ct">
+  <div><h2>Как нас найти</h2>
+    <a class="ph" data-goal="call" data-cfg="tel" href="#"></a>
+    <p class="lead">Вологда, Окружное шоссе, 9. Дежурный администратор 24/7. Рядом ТЦ «РИО», АЗС «Лукойл», «Пицца Фабрика».</p>
+    <div class="ct__b"><a class="btn btn--sig" data-goal="route" data-cfg="map" target="_blank" rel="noopener" href="#">Построить маршрут<b>→</b></a>
+      <a class="btn btn--vk" data-goal="vk" data-cfg="vk" target="_blank" rel="noopener" href="#"><span class="vkb">VK</span>Группа ВКонтакте</a>
+      <a class="btn" data-goal="telegram" data-cfg="tg" target="_blank" rel="noopener" href="#">Telegram</a></div>
+    <p class="vknote">Акции и новости публикуем в группе ВКонтакте.</p></div>
+  <div class="map" id="map" data-reveal="wipe"><img src="assets/img/facade-day.webp" loading="lazy" alt="Фасад автомойки МОБИЛ24" width="1280" height="960"><button class="btn btn--sig" id="mapBtn">Показать карту</button></div>
+</div></section>
+</main>
+
+<footer class="ft"><div class="w ft__in">
+  <div class="ft__l"><span>© МОБИЛ24, Вологда</span><span>ИП Порошин Дмитрий Николаевич<br>ОГРНИП 324350000056802 · ИНН 782021804503</span></div>
+  <a class="studio" href="https://setchatkaglaza.github.io/setchatkaglaza/" target="_blank" rel="noopener" aria-label="Сайт создан веб-студией SetchatkaGlaza"><img src="assets/img/studio-logo.png" width="140" height="73" alt="SetchatkaGlaza Web Studio" loading="lazy"></a>
+</div></footer>
+
+<div class="dock" id="dock"><a data-goal="call" data-cfg="tel" href="#">Позвонить</a><a data-goal="vk" data-cfg="vk" target="_blank" rel="noopener" href="#">ВКонтакте</a><a data-goal="route" data-cfg="map" target="_blank" rel="noopener" href="#">Маршрут</a></div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Просмотр фото" aria-hidden="true">
+  <button class="lb__x" aria-label="Закрыть">×</button><button class="lb__p" aria-label="Предыдущее">‹</button><img alt=""><button class="lb__n" aria-label="Следующее">›</button>
+  <div class="lb__i"><span id="lbC"></span><span id="lbCap"></span></div></div>
+<noscript><p style="padding:20px;text-align:center">Включите JavaScript или позвоните: +7 964 666-44-66</p></noscript>
+<script src="assets/js/config.js"></script><script src="assets/js/data.js"></script><script src="assets/js/main.js"></script>
+</body></html>
